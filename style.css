@@ -3,3 +3,37 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1, figure, nav, figure figcaption {
+  text-align: center;
+}
+
+nav a {
+  padding-inline: 10px;
+  background-color: aliceblue;
+}
+
+figure figcaption {
+  font-size: 12px;
+}
+
+#featured-property p {
+  width: 800px;
+  line-height: 1.3;
+  margin: auto;
+  text-align: center;
+}
+
+#details {
+  background-color: red;
+  text-align: center;
+}
+
+#details div:not(.clearfix) {
+  width: 25%;
+  float: left;
+}
+
+.clearfix {
+  clear: both;
+}
